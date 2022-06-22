@@ -17,12 +17,12 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
             <Container fluid>
               <Navbar.Brand href="#">Imobiliária Django</Navbar.Brand>
               <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
-              <Navbar.Offcanvas
+              <Navbar.Offcanvas 
                 id={`offcanvasNavbar-expand-${expand}`}
                 aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
                 placement="end"
               >
-                <Offcanvas.Header closeButton>
+                <Offcanvas.Header closeButton  className='bg-dark text-light'>
                   <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                     Menu
                   </Offcanvas.Title>
