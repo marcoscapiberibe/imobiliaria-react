@@ -11,12 +11,9 @@ import Form from 'react-bootstrap/Form';
 function Item() {
     return (
         <>
-            <Container  className="barra--pesquisa">
-
+            <div  className="barra--pesquisa">
+                <div>
                 <ButtonGroup aria-label="Basic example">
-                    {/* <Button variant="secondary">Left</Button>
-      <Button variant="secondary">Middle</Button>
-      <Button variant="secondary">Right</Button> */}
 
                     <DropdownButton as={ButtonGroup} title="Pretensão" id="bg-nested-dropdown" variant="secondary" size="lg" className="mb-1">
                         <Dropdown.Item eventKey="1">Comprar</Dropdown.Item>
@@ -46,7 +43,9 @@ function Item() {
                     </DropdownButton>
 
                 </ButtonGroup>
+                </div>
 
+                <div>
                 <Form className="d-flex m-2">
                     <Form.Control
                         type="search"
@@ -57,8 +56,10 @@ function Item() {
                     />
                     <Button variant="outline-secondary">Pesquisar</Button>
                 </Form>
+                </div>
 
-            </Container>
+
+            </div>
 
         </>
 
