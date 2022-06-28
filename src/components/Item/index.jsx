@@ -49,7 +49,7 @@ function Item() {
                 <Form className="d-flex m-2">
                     <Form.Control
                         type="search"
-                        placeholder="Pesquise o seu Imóvel"
+                        placeholder="Pesquise o seu imóvel"
                         className="me-1 pe-1"
                         aria-label="Search"
                         size="lg"

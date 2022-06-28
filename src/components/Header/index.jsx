@@ -52,7 +52,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
                   <Form className="d-flex">
                     <Form.Control
                       type="search"
-                      placeholder="Pesquise o seu Imóvel"
+                      placeholder="Pesquise o seu imóvel"
                       className="me-2"
                       aria-label="Search"
                     />
