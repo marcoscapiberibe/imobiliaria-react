@@ -1,6 +1,7 @@
 .barra--pesquisa {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
+    padding: 2em;
 }

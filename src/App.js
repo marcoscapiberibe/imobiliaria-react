@@ -17,7 +17,7 @@ function App() {
         <section>
           <Carrosel />
         </section>
-        <section className="barra--pesquisa">
+        <section>
           <Item />
         </section>
       </main>

@@ -13,7 +13,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
     return (
       <>
         {[false].map((expand) => (
-          <Navbar key={expand} bg="dark" variant="dark" expand={expand} className="mb-3">
+          <Navbar key={expand} bg="dark" variant="dark" expand={expand}>
             <Container fluid>
               <Navbar.Brand href="#">Imobiliária Django</Navbar.Brand>
               <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -31,7 +31,11 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
                   <Nav className="justify-content-end flex-grow-1 pe-3 text-light">
                     <Nav.Link href="#action1" className='text-light'>Home</Nav.Link>
                     <Nav.Link href="#action2" className='text-light'>Link</Nav.Link>
-                    <NavDropdown
+                    <Nav.Link href="#action2" className='text-light'>Link</Nav.Link>
+                    <Nav.Link href="#action2" className='text-light'>Contato</Nav.Link>
+
+
+                    {/* <NavDropdown
                       title="Dropdown"
                       id={`offcanvasNavbarDropdown-expand-${expand}`}
                     >
@@ -43,16 +47,16 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
                       <NavDropdown.Item href="#action5">
                         Something else here
                       </NavDropdown.Item>
-                    </NavDropdown>
+                    </NavDropdown> */}
                   </Nav>
                   <Form className="d-flex">
                     <Form.Control
                       type="search"
-                      placeholder="Search"
+                      placeholder="Pesquise o seu Imóvel"
                       className="me-2"
                       aria-label="Search"
                     />
-                    <Button variant="outline-success">Search</Button>
+                    <Button variant="outline-secondary">Pesquisar</Button>
                   </Form>
                 </Offcanvas.Body>
               </Navbar.Offcanvas>

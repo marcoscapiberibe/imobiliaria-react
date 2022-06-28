@@ -1,49 +1,54 @@
+import '../Carrosel/Carrosel.css';
 import Carousel from 'react-bootstrap/Carousel';
-
-
+import ImovelOne from '../Carrosel/imoveis01.jpg';
+import ImovelTwo from '../Carrosel/imoveis02.jpg';
+import ImovelThree from '../Carrosel/imoveis03.jpg';
 
 function Carrosel() {
-  return (
-    <Carousel fade>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
-          alt="Second slide"
-        />
+    return (
+        <Carousel fade>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100 imagem--carrosel--one"
+                    src={ImovelOne}
+                    alt="First slide"
+                />
+                <Carousel.Caption>
+                    <h1>Seu novo imóvel
+                        a alguns passos</h1>
+                    <p>Quando se trata de compra e venda de imóveis, proporcionamos consultoria sobre todos os mercados comerciais e de desenvolvimento.</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100 imagem--carrosel--one"
+                    src={ImovelTwo}
+                    alt="Second slide"
+                />
 
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
-          alt="Third slide"
-        />
+                <Carousel.Caption>
+                    <h1>Seu novo imóvel
+                        a alguns passos</h1>
+                    <p>Quando se trata de compra e venda de imóveis, proporcionamos consultoria sobre todos os mercados comerciais e de desenvolvimento.</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100 imagem--carrosel--one"
+                    src={ImovelThree}
+                    alt="Third slide"
+                />
 
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-  );
+                <Carousel.Caption>
+                    <h1>Seu novo imóvel
+                        a alguns passos</h1>
+                    <p>
+                        Quando se trata de compra e venda de imóveis, proporcionamos consultoria sobre todos os mercados comerciais e de desenvolvimento.
+                    </p>
+                </Carousel.Caption>
+            </Carousel.Item>
+        </Carousel>
+    );
 }
 
 export default Carrosel;
