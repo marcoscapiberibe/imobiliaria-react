@@ -5,6 +5,7 @@ import { Button } from 'react-bootstrap';
 import Header from './components/Header'
 import Item from './components/Item'
 import Carrosel from './components/Carrosel'
+import CardImovel from './components/CardImovel'
 // import OffcanvasExample from './components/Header';
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
         <section>
           <Item />
         </section>
+        <CardImovel />
+
       </main>
       {/* <div className="App">      
       <header className="App-header">
