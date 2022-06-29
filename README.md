@@ -1,30 +1,26 @@
-# Getting Started with Create React App
+# Aplicação responsiva desenvolvida com React JS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicação responsiva desenvolvida em React Js que apresenta uma navbar offcanvas, um carrosel de imagens e cards com imagens e informações. A aplicação inicialmente terá uma tela principal, contendo a navbar offcanvas, um carrosel e alguns cards.
 
-## Available Scripts
 
-In the project directory, you can run:
+# Sobre o projeto
 
-### `npm start`
+Este projeto consiste em uma aplicação desenvolvida em React Js e React-Bootstrap que apresenta uma navbar offcanvas, um carrosel de imagens e cards com imagens e informações. A aplicação inicialmente terá uma tela principal, contendo a navbar offcanvas, um carrosel e alguns cards.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Tecnologias utilizadas
 
-### `npm test`
+* HTML
+* CSS 
+* Javascript
+* React JS
+* React-Boostrap
+* NPM
+* Vercel
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Autor
+<b>Marcos Capiberibe</b>
 
-### `npm run build`
+Linkedin: www.linkedin.com/in/marcos-capiberibe
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+email: marcoscapiberibe@hotmail.com
