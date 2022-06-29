@@ -13,10 +13,10 @@ import CardImovel03 from '../CardImovel/Card03.jpg';
 function CardImovel() {
     return (
         <Container className='card--row'>
-        <Row xs={1} md={2} lg={3} className="g-4 justify-content-center align-items-center card--row">
+        <Row xs={1} md={2} lg={3} className="g-4 card--row m-0 p-0">
 
-            <Col>
-                <Card style={{ width: '18rem'}} className="card--estilo">
+            <Col className='card--coluna'>
+                <Card className="card--estilo">
                     <Card.Img variant="top" src={CardImovel01} />
                     <Card.Body>
                         <Card.Title>Apartamento</Card.Title>
@@ -28,8 +28,8 @@ function CardImovel() {
                 </Card>
             </Col>
 
-            <Col>
-                <Card style={{ width: '18rem' }} className="card--estilo">
+            <Col className='card--coluna'>
+                <Card className="card--estilo">
                     <Card.Img variant="top" src={CardImovel02} />
                     <Card.Body>
                         <Card.Title>Apartamento</Card.Title>
@@ -41,8 +41,8 @@ function CardImovel() {
                 </Card>
             </Col>
 
-            <Col>
-                <Card style={{ width: '18rem' }}  className="card--estilo">
+            <Col className='card--coluna'>
+                <Card className="card--estilo">
                     <Card.Img variant="top" src={CardImovel03} />
                     <Card.Body>
                         <Card.Title>Apartamento</Card.Title>
@@ -54,8 +54,8 @@ function CardImovel() {
                 </Card>
             </Col>
 
-            <Col>
-                <Card style={{ width: '18rem' }} className="card--estilo">
+            <Col className='card--coluna'>
+                <Card className="card--estilo">
                     <Card.Img variant="top" src={CardImovel01} />
                     <Card.Body>
                         <Card.Title>Apartamento</Card.Title>
@@ -67,8 +67,8 @@ function CardImovel() {
                 </Card>
             </Col>
 
-            <Col>
-                <Card style={{ width: '18rem' }} className="card--estilo">
+            <Col className='card--coluna'>
+                <Card className="card--estilo">
                     <Card.Img variant="top" src={CardImovel02} />
                     <Card.Body>
                         <Card.Title>Apartamento</Card.Title>
@@ -80,8 +80,8 @@ function CardImovel() {
                 </Card>
             </Col>
 
-            <Col>
-                <Card style={{ width: '18rem' }} className="card--estilo">
+            <Col className='card--coluna'>
+                <Card className="card--estilo">
                     <Card.Img variant="top" src={CardImovel03} />
                     <Card.Body>
                         <Card.Title>Apartamento</Card.Title>

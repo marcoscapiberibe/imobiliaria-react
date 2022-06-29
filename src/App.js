@@ -21,7 +21,9 @@ function App() {
         <section>
           <Item />
         </section>
+        <section className='card--largura'>
         <CardImovel />
+        </section>
 
       </main>
       {/* <div className="App">      
