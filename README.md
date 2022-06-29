@@ -5,7 +5,7 @@ Aplicação responsiva desenvolvida em React Js que apresenta uma navbar offcanv
 
 # Sobre o projeto
 
-Este projeto consiste em uma aplicação desenvolvida em React Js e React-Bootstrap que apresenta uma navbar offcanvas, um carrosel de imagens e cards com imagens e informações. A aplicação inicialmente terá uma tela principal, contendo a navbar offcanvas, um carrosel e alguns cards.
+Este projeto consiste em uma aplicação desenvolvida em React Js e React-Bootstrap que apresenta uma navbar offcanvas, um carrosel de imagens e cards com imagens e informações. A aplicação inicialmente terá uma tela principal, contendo a navbar offcanvas, um carrosel e alguns cards. A parte de Back-End será desenvolvida em parceria com Leonardo.
 
 ![Imobiliaria Django - Marcos](https://user-images.githubusercontent.com/96851717/176473541-6167b19d-3cbf-4627-995b-01c62e86f446.jpeg)
 
