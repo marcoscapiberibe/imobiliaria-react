@@ -1,11 +1,12 @@
 .card--row { 
-    align-items: center;    
+    align-items: center;
+    background-color: #d3d3d3;    
 }
 
 .card--estilo {
     max-width: 18rem;
     height: 30rem;
-    border-color: rgb(109, 123, 138);
+    border-color: #696969;
 }
 
 /* Responsividade */
@@ -21,5 +22,5 @@
 .card--estilo {
     max-width: 18rem;
     height: 30rem;
-    border-color: rgb(109, 123, 138);
+    border-color: #696969;
 }
