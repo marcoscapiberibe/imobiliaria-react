@@ -12,7 +12,7 @@ import CardImovel03 from '../CardImovel/Card03.jpg';
 
 function CardImovel() {
     return (
-        <Container className='card--row'>
+        <Container className='card--row pb-5'>
         <Row xs={1} md={2} lg={3} className="g-4 card--row m-0 p-0">
 
             <Col className='card--coluna'>

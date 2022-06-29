@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Item from './components/Item'
 import Carrosel from './components/Carrosel'
 import CardImovel from './components/CardImovel'
+import Footer from './components/Footer';
 // import OffcanvasExample from './components/Header';
 
 function App() {
@@ -24,13 +25,10 @@ function App() {
         <section className='card--largura'>
         <CardImovel />
         </section>
-
       </main>
-      {/* <div className="App">      
-      <header className="App-header">
-        <Button variant="info">Teste</Button>{'Legenda'}
-      </header>
-    </div> */}
+      <footer>
+      <Footer />
+      </footer>
     </>
   );
 }
