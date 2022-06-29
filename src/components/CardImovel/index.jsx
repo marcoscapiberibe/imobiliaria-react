@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
 import CardImovel01 from '../CardImovel/Card01.jpg';
 import CardImovel02 from '../CardImovel/Card02.jpg';
 import CardImovel03 from '../CardImovel/Card03.jpg';
@@ -11,7 +12,8 @@ import CardImovel03 from '../CardImovel/Card03.jpg';
 
 function CardImovel() {
     return (
-        <Row xs={1} md={3} className="g-4">
+        <Container>
+        <Row xs={1} md={3} className="g-4 justify-content-center align-items-center">
 
             <Col>
                 <Card style={{ width: '18rem' }}>
@@ -52,10 +54,8 @@ function CardImovel() {
                 </Card>
             </Col>
 
-
-
-
         </Row>
+        </Container>
     );
 }
 
