@@ -13,7 +13,7 @@ import CardImovel03 from '../CardImovel/Card03.jpg';
 function CardImovel() {
     return (
         <Container className='card--row'>
-        <Row xs={1} md={3} className="g-4 justify-content-center align-items-center card--row">
+        <Row xs={1} md={2} lg={3} className="g-4 justify-content-center align-items-center card--row">
 
             <Col>
                 <Card style={{ width: '18rem'}} className="card--estilo">
