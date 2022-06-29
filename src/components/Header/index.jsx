@@ -13,7 +13,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
     return (
       <>
         {[false].map((expand) => (
-          <Navbar key={expand} bg="dark" variant="dark" expand={expand}>
+          <Navbar key={expand} bg="dark" variant="dark" expand={expand} className="fixed-top">
             <Container fluid>
               <Navbar.Brand href="#">Imobiliária Django</Navbar.Brand>
               <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />

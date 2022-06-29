@@ -6,10 +6,10 @@ import ImovelThree from '../Carrosel/imoveis03.jpg';
 
 function Carrosel() {
     return (
-        <Carousel fade>
+        <Carousel fade className='mt-5'>
             <Carousel.Item>
                 <img
-                    className="d-block w-100 imagem--carrosel--one"
+                    className="d-block w-100 imagem--carrosel"
                     src={ImovelOne}
                     alt="First slide"
                 />
@@ -21,7 +21,7 @@ function Carrosel() {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    className="d-block w-100 imagem--carrosel--one"
+                    className="d-block w-100 imagem--carrosel"
                     src={ImovelTwo}
                     alt="Second slide"
                 />
@@ -34,7 +34,7 @@ function Carrosel() {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    className="d-block w-100 imagem--carrosel--one"
+                    className="d-block w-100 imagem--carrosel"
                     src={ImovelThree}
                     alt="Third slide"
                 />
