@@ -25,7 +25,6 @@ function Carrosel() {
                     src={ImovelTwo}
                     alt="Second slide"
                 />
-
                 <Carousel.Caption>
                     <h1>Seu novo imóvel
                         a alguns passos</h1>
@@ -38,7 +37,6 @@ function Carrosel() {
                     src={ImovelThree}
                     alt="Third slide"
                 />
-
                 <Carousel.Caption>
                     <h1>Seu novo imóvel
                         a alguns passos</h1>
