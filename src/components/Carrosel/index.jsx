@@ -6,7 +6,7 @@ import ImovelThree from '../Carrosel/imoveis03.jpg';
 
 function Carrosel() {
     return (
-        <Carousel fade className='mt-5'>
+        <Carousel fade className='mt-5 pt-2'>
             <Carousel.Item>
                 <img
                     className="d-block w-100 imagem--carrosel"

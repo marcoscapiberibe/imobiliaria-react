@@ -11,7 +11,7 @@ import Form from 'react-bootstrap/Form';
 function Item() {
     return (
         <>
-            <div  className="barra--pesquisa">
+            <div  className="barra--pesquisa pt-5">
                 <div>
                 <ButtonGroup aria-label="Basic example">
 
